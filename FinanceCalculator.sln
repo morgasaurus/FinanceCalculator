@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceCalculatorUi", "FinanceCalculatorUi\FinanceCalculatorUi.csproj", "{ACC9B6FF-44EE-4EA4-9913-D8A3082FB7F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceCalculationLibrary", "FinanceCalculationLibrary\FinanceCalculationLibrary.csproj", "{EF951A32-B867-4C92-BF7E-DAB1258106B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACC9B6FF-44EE-4EA4-9913-D8A3082FB7F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC9B6FF-44EE-4EA4-9913-D8A3082FB7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC9B6FF-44EE-4EA4-9913-D8A3082FB7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC9B6FF-44EE-4EA4-9913-D8A3082FB7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF951A32-B867-4C92-BF7E-DAB1258106B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF951A32-B867-4C92-BF7E-DAB1258106B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF951A32-B867-4C92-BF7E-DAB1258106B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF951A32-B867-4C92-BF7E-DAB1258106B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
