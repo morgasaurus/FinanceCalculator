@@ -14,5 +14,15 @@ namespace FinanceCalculatorUi
         {
             new FutureValue().Show();
         }
+
+        private void ToolStripMenuItem_PresentValue_Click(object sender, EventArgs e)
+        {
+            new PresentValue().Show();
+        }
+
+        private void ToolStripMenuItem_PaymentAmount_Click(object sender, EventArgs e)
+        {
+            new PaymentAmount().Show();
+        }
     }
 }

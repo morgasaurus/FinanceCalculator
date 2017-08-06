@@ -51,7 +51,7 @@ namespace FinanceCalculationLibrary
         /// <param name="interest">The interest rate</param>
         /// <param name="periods">The number of periods</param>
         /// <returns>The necessary payment amount</returns>
-        public static decimal CalculatePaymentAmount(decimal principal, decimal interest, decimal periods)
+        public static decimal PaymentAmount(decimal principal, decimal interest, decimal periods)
         {
             return (principal * interest * InterestFactor(interest, periods)) / (InterestFactor(interest, periods) - 1);
         }

@@ -70,12 +70,14 @@
             this.ToolStripMenuItem_PresentValue.Name = "ToolStripMenuItem_PresentValue";
             this.ToolStripMenuItem_PresentValue.Size = new System.Drawing.Size(168, 22);
             this.ToolStripMenuItem_PresentValue.Text = "Present Value";
+            this.ToolStripMenuItem_PresentValue.Click += new System.EventHandler(this.ToolStripMenuItem_PresentValue_Click);
             // 
             // ToolStripMenuItem_PaymentAmount
             // 
             this.ToolStripMenuItem_PaymentAmount.Name = "ToolStripMenuItem_PaymentAmount";
             this.ToolStripMenuItem_PaymentAmount.Size = new System.Drawing.Size(168, 22);
             this.ToolStripMenuItem_PaymentAmount.Text = "Payment Amount";
+            this.ToolStripMenuItem_PaymentAmount.Click += new System.EventHandler(this.ToolStripMenuItem_PaymentAmount_Click);
             // 
             // Label_Instructions
             // 
